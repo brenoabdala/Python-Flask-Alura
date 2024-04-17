@@ -1,0 +1,37 @@
+{% extends "template.html" %}
+{% block conteudo %}
+
+        <table class="table table-striped table-responsive table-bordered">
+            <thead class="thead-default">
+                <tr>
+                    <th>Nome</th>
+                    <th>Categoria</th>
+                    <th>Console</th>
+                </tr>
+            </thead>
+            <tbody>
+                 <!-- passando o conteudo manualmente -->
+                <!-- <tr>
+                    <td>{{jogo1}}</td>
+                </tr> -->
+                <!-- #passando o conteudo dinamicamente -->
+                <!-- {% for jogo in jogos %}  
+                <tr>
+                    <td>{{jogo}}</td>
+                </tr>
+                {%endfor%}  -->
+                 <!-- #fechando o for -->
+
+                <!-- #passando o conteudo dinamicamente ORIENTADO A OBJETOS -->
+                {% for jogo in jogos %}  
+                <tr>
+                    <td>{{jogo.nome}}</td>
+                    <td>{{jogo.categoria}}</td>
+                    <td>{{jogo.console}}</td>
+                </tr>
+                {%endfor%}  <!-- #fechando o for -->
+
+
+            </tbody>
+        </table>
+{% endblock %}
