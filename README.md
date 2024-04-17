@@ -1,4 +1,4 @@
-<h2> >Jogoteca Webapp-Flask </h2>
+<h2> Jogoteca Webapp Flask </h2>
 
 <h4>Descrição</h4>
 
@@ -22,8 +22,6 @@ npm install bootstrap@5.2.0
 
 <h4>Plataforma de Aprendizagem</h4>
 <p>Alura (https://cursos.alura.com.br/)</p>
-
-
-<h4>Cursos realizados para a construção do Jogo</h4>
+  
+<h4>Fromação realizada para a construção do Jogo</h4>
 <p>Curso de Flask: crie uma webapp com Python</p>
-
